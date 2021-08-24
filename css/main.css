@@ -1,0 +1,38 @@
+body {
+  font-family: "Caveat", serif;
+  color: white;
+}
+
+.timer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  text-align: center;
+}
+
+.field:not(:last-child) .value::after {
+  content: ":";
+}
+
+.label {
+  font-size: 20px;
+  text-align: center;
+}
+
+.value {
+  font-size: 70px;
+}
+
+@media screen and (min-width: 1119.98px) {
+  .value {
+    font-size: 109px;
+  }
+}
