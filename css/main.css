@@ -30,9 +30,3 @@ body {
 .value {
   font-size: 70px;
 }
-
-@media screen and (min-width: 1119.98px) {
-  .value {
-    font-size: 109px;
-  }
-}
