@@ -51,5 +51,5 @@ class CountdownTimer {
     };
 
 };
-const timer = new CountdownTimer({targetDate : new Date('Sept 7, 2021 00:00:00' )});
+const timer = new CountdownTimer({targetDate : new Date('Sept 5, 2021 00:00:00' )});
 timer.startTimer();
